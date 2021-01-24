@@ -16,9 +16,9 @@ export class PlatformsService {
   }
 
   getByName(name){
-    return this.obj.get(this.link + "?name=" + name + "&" + this.api_key);
+    return this.obj.get(this.link + "/" + name + "?" + this.api_key);
   }
   getById(id){
-    return this.obj.get(this.link + "?id=" + id + "&" + this.api_key);
+    return this.obj.get(this.link + "/" + id + "?" + this.api_key);
   }
 }
