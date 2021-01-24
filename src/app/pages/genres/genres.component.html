@@ -1,0 +1,8 @@
+<p>genres works!</p>
+
+<div class="box green" *ngFor="let item of items"><br>
+  <b> # {{item.id}}. {{item.slug}}</b><br>
+  <img [src]="item.image_background" alt=""><br>
+  <p> Tagged Games: {{item.games_count}} <br> </p>
+  <button>See more</button><br>
+</div>

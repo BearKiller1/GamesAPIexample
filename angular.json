@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "gamesStore"
+    }
+  },
+  "defaultProject": "gamesStore",
+  "cli": {
+    "analytics": false
+  }
 }

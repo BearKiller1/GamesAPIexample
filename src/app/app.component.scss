@@ -1,0 +1,21 @@
+.Nav {
+  width: 50%;
+  float:left;
+  height: 12vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  // background: rgba(246,238,46,1);
+  color: #333;
+  p{
+    cursor:pointer;
+    outline: 0;
+  }
+}
+
+.Content {
+  width:90%;
+  height:88vh;
+  float:left;
+  padding: 2% 5%
+}
